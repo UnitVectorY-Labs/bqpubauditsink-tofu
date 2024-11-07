@@ -31,7 +31,7 @@ locals {
 resource "google_service_account" "cloud_run_sa" {
   project      = var.project_id
   account_id   = "bqpas-${var.name}"
-  display_name = "firepubauditsource Cloud Run (${var.name}) service account"
+  display_name = "bqpubauditsink Cloud Run (${var.name}) service account"
 }
 
 # IAM role to grant permissions to Cloud Run service account for BigQuery
