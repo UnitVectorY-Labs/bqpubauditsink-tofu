@@ -7,8 +7,6 @@ managed_files:
       management: file
     - path: .github/workflows/add-to-project.yml
       management: file
-    - path: .github/workflows/osv-scanner.yml
-      management: file
     - path: .github/workflows/zizmor.yml
       management: file
     - path: .github/zizmor.yml
