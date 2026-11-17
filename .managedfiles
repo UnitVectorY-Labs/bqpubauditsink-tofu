@@ -5,6 +5,12 @@ managed_files:
       management: file
     - path: .github/dependabot.yml
       management: file
+    - path: .github/workflows/chromadb-repo-indexer.yml
+      management: file
+    - path: .github/workflows/semgrep.yml
+      management: file
+    - path: .github/workflows/tf-documentation.yml
+      management: file
     - path: .github/workflows/zizmor.yml
       management: file
     - path: .github/zizmor.yml
